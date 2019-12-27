@@ -66,7 +66,9 @@ function combineSeparetePagesIntoPDF($bookName, $pageNumberArray, $newFilename) 
     $result->saveFiles($dir. '/' . $newFilename . '.pdf');
     print('merge finished!');
 }
-breakOutPDFIntoSeparatePages('Math1', 'audit');
+
+
+breakOutPDFIntoSeparatePages('Math1', 'sample');
 // combineSeparetePagesIntoPDF('audit', [2, 3, 4], 'jane')
 
 ?>
